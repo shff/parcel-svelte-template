@@ -1,0 +1,35 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "serve": "parcel app/index.html --open",
+    "build": "parcel build app/index.html --public-url .",
+    "rebuild": "yarn clean && yarn build --no-cache",
+    "clean": "rm -rf .cache dist"
+  },
+  "dependencies": {
+    "tachyons": "^4.10.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import-glob": "^2.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-inliner": "^1.0.0",
+    "parcel-plugin-purifycss": "^1.0.0",
+    "parcel-plugin-svelte": "^1.2.2",
+    "svelte": "^2.9.5"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "import-glob"
+    ]
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 11",
+    "not op_mini all"
+  ]
+}
