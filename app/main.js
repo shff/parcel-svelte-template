@@ -1,4 +1,4 @@
 import "tachyons";
-import main from "./main.svelte";
+import Main from "./main.svelte";
 
-new main({ target: document.querySelector("main") });
+new Main({ target: document.querySelector("main") });
