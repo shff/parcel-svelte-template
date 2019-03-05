@@ -8,9 +8,7 @@
     "lint": "eslint app/**/*.js app/**/*.svelte",
     "test": "jasmine"
   },
-  "dependencies": {
-    "tachyons": "^4.11.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
