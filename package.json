@@ -17,8 +17,8 @@
     "babel-preset-env": "^1.7.0",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-inliner": "^1.0.6",
-    "parcel-plugin-purifycss": "^1.0.5",
     "parcel-plugin-svelte": "^2.1.0-alpha-0",
+    "postcss-remove-unused-css": "^1.0.4",
     "svelte": "^2.16.1"
   },
   "optionalDependencies": {
@@ -43,6 +43,19 @@
     "not ie 11",
     "not op_mini all"
   ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-remove-unused-css": {
+        "path": "./app",
+        "exts": [
+          ".js",
+          ".svelte",
+          ".html"
+        ]
+      }
+    }
+  },
   "eslintConfig": {
     "extends": [
       "eslint:recommended",
