@@ -4354,10 +4354,24 @@ pako@~1.0.5:
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
 
-parcel-bundler@^1.11.0:
+parcel-plugin-inliner@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.6.tgz#bf453824460c0d82dc2a30a316c4a4095516c7a0"
+  integrity sha512-Y6osNDXm2WwoiDlxxY9oGXM36PLq/3dM3MXWxwwZpz/l5ewSked3zD8dJ9LJUzslPoTWKeLbJVU+O8kUvF486A==
+  dependencies:
+    posthtml-inline-assets "^3.0.0"
+
+parcel-plugin-svelte@^2.1.0-alpha-0:
+  version "2.1.0-alpha-0"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-2.1.0-alpha-0.tgz#b94dcc55136aec30c376e56554e64d011e09e00e"
+  integrity sha512-VeWskKeqaL9i+69XYAnm1Kae3yeKBJNUyCY8mEwB+2y+kxuN74ZiDO+AjyCotLfGPTO4aQ7e02yWe1NjGQuiAQ==
+  dependencies:
+    svelte-dev-helper "^1.1.7"
+
+parcel@^1.11.0:
   version "1.11.0"
-  resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.11.0.tgz#7e821a5246d7503aebf3c1bc279b59cbb8a3d4e3"
-  integrity sha512-H0w/Obx76vWiG+UtofznfcHZJBmd6JA5iCn7zrGBINyVAh+Nt/JLD6QDROghHLXfJkO4XyczsB+fO+nPbXlFfA==
+  resolved "https://registry.yarnpkg.com/parcel/-/parcel-1.11.0.tgz#d420cfa4d1286c5d760b090ed0f5ae7db353a694"
+  integrity sha512-5blcx/pgzqlRvF2PbRzRXpzEHDYQa34U2yRx+psqZ3y5CJQgAydIsQIwa5tRabgOVgSyTMPrBXS/jUFvafaQ5Q==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4415,20 +4429,6 @@ parcel-bundler@^1.11.0:
     terser "^3.7.3"
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
-
-parcel-plugin-inliner@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.6.tgz#bf453824460c0d82dc2a30a316c4a4095516c7a0"
-  integrity sha512-Y6osNDXm2WwoiDlxxY9oGXM36PLq/3dM3MXWxwwZpz/l5ewSked3zD8dJ9LJUzslPoTWKeLbJVU+O8kUvF486A==
-  dependencies:
-    posthtml-inline-assets "^3.0.0"
-
-parcel-plugin-svelte@^2.1.0-alpha-0:
-  version "2.1.0-alpha-0"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-2.1.0-alpha-0.tgz#b94dcc55136aec30c376e56554e64d011e09e00e"
-  integrity sha512-VeWskKeqaL9i+69XYAnm1Kae3yeKBJNUyCY8mEwB+2y+kxuN74ZiDO+AjyCotLfGPTO4aQ7e02yWe1NjGQuiAQ==
-  dependencies:
-    svelte-dev-helper "^1.1.7"
 
 parent-module@^1.0.0:
   version "1.0.0"

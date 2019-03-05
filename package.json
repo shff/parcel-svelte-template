@@ -15,7 +15,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.11.0",
+    "parcel": "^1.11.0",
     "parcel-plugin-inliner": "^1.0.6",
     "parcel-plugin-svelte": "^2.1.0-alpha-0",
     "postcss-remove-unused-css": "^1.0.4",
