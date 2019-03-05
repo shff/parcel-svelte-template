@@ -2,35 +2,36 @@
   "license": "MIT",
   "scripts": {
     "serve": "parcel app/index.html --open",
-    "build": "parcel build app/index.html --public-url .",
+    "build": "parcel build app/index.html --no-source-maps --public-url .",
     "rebuild": "yarn clean && yarn build --no-cache",
     "clean": "rm -rf .cache dist",
     "lint": "eslint app/**/*.js app/**/*.svelte",
     "test": "jasmine"
   },
   "dependencies": {
-    "tachyons": "^4.10.0"
+    "tachyons": "^4.11.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "parcel-bundler": "^1.9.7",
-    "parcel-plugin-inliner": "^1.0.0",
-    "parcel-plugin-purifycss": "^1.0.0",
-    "parcel-plugin-svelte": "^1.2.2",
-    "svelte": "^2.9.5"
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-inliner": "^1.0.6",
+    "parcel-plugin-purifycss": "^1.0.5",
+    "parcel-plugin-svelte": "^2.1.0-alpha-0",
+    "svelte": "^2.16.1"
   },
   "optionalDependencies": {
-    "@tivac/eslint-plugin-svelte": "^1.1.0",
-    "eslint": "^5.1.0",
-    "eslint-config-airbnb-base": "^13.0.0",
+    "@tivac/eslint-plugin-svelte": "^1.2.1",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^4.0.5",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-unicorn": "^4.0.3",
-    "jasmine": "^3.1.0"
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-unicorn": "^7.1.0",
+    "jasmine": "^3.3.1"
   },
   "babel": {
     "presets": [
@@ -64,7 +65,10 @@
       }
     },
     "settings": {
-      "html/html-extensions": [".html", ".svelte"]
+      "html/html-extensions": [
+        ".html",
+        ".svelte"
+      ]
     },
     "globals": {
       "document": true
