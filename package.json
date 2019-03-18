@@ -22,7 +22,7 @@
   },
   "optionalDependencies": {
     "@tivac/eslint-plugin-svelte": "^1.2.1",
-    "eslint": "^5.15.1",
+    "eslint": "^5.15.3",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^5.0.3",
