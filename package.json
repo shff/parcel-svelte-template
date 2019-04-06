@@ -13,8 +13,8 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "parcel": "^1.11.0",
-    "parcel-plugin-compress": "^1.0.7",
+    "parcel": "^1.12.3",
+    "parcel-plugin-compress": "^1.0.9",
     "parcel-plugin-inliner": "^1.0.6",
     "parcel-plugin-svelte": "^2.1.0-alpha-0",
     "postcss-remove-unused-css": "^1.0.4",
@@ -22,15 +22,15 @@
   },
   "optionalDependencies": {
     "@tivac/eslint-plugin-svelte": "^1.2.1",
-    "eslint": "^5.15.3",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^5.0.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-unicorn": "^7.1.0",
-    "jasmine": "^3.3.1"
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-unicorn": "^8.0.1",
+    "jasmine": "^3.4.0"
   },
   "babel": {
     "presets": [
