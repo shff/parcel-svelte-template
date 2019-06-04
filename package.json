@@ -2,7 +2,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "parcel app/index.html --open",
-    "build": "parcel build app/index.html --no-source-maps --public-url .",
+    "build": "parcel build app/index.html --experimental-scope-hoisting --no-source-maps --public-url .",
     "rebuild": "yarn clean && yarn build --no-cache",
     "clean": "rm -rf .cache dist",
     "lint": "eslint app/**/*.js app/**/*.svelte",
@@ -14,22 +14,22 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
     "parcel": "^1.12.3",
-    "parcel-plugin-compress": "^1.0.9",
-    "parcel-plugin-inliner": "^1.0.6",
-    "parcel-plugin-svelte": "^2.1.0-alpha-0",
+    "parcel-plugin-compress": "^1.0.10",
+    "parcel-plugin-inliner": "^1.0.10",
+    "parcel-plugin-svelte": "^3.0.1",
     "postcss-remove-unused-css": "^1.0.4",
-    "svelte": "^2.16.1"
+    "svelte": "^3.4.4"
   },
   "optionalDependencies": {
     "@tivac/eslint-plugin-svelte": "^1.2.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-plugin-html": "^5.0.3",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-unicorn": "^8.0.1",
+    "eslint-plugin-unicorn": "^9.0.0",
     "jasmine": "^3.4.0"
   },
   "babel": {
