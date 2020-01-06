@@ -16,7 +16,7 @@
     "parcel": "^1.12.4",
     "parcel-plugin-compress": "^1.0.10",
     "parcel-plugin-inliner": "^1.0.10",
-    "parcel-plugin-svelte": "^4.0.4",
+    "parcel-plugin-svelte": "^4.0.5",
     "postcss-remove-unused-css": "^1.0.4",
     "svelte": "^3.16.7"
   },
