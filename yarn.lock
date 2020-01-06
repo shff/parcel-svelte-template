@@ -4764,10 +4764,10 @@ parcel-plugin-inliner@^1.0.10:
   dependencies:
     "@shferreira/posthtml-inline-assets" "^3.0.0"
 
-parcel-plugin-svelte@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.4.tgz#2c50ff98565bc68b4174a9d7030fe23951cc3ad4"
-  integrity sha512-Dgmlw+ULrKw+kxe8ClniuClE55tlW8cFlLRSSJFOgxgWoH7280RG8Rs7GSp90kihliatn+fH2xpj2hYaWqgLPA==
+parcel-plugin-svelte@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.5.tgz#fdf0fb498b325120debfa5208c88285057c6a799"
+  integrity sha512-9KUYOEKL6LqQmOYc4DeErvqOHlx5RTUDHHUxesox0xQi7diA3pi/SEMr/37HWj5hxB+iiTBCvOw9sR60xdBcTA==
   dependencies:
     svelte-dev-helper "^1.1.7"
 
