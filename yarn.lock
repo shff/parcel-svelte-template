@@ -6437,10 +6437,10 @@ svelte-dev-helper@^1.1.7:
   resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
   integrity sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
 
-svelte@^3.16.7:
-  version "3.16.7"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.16.7.tgz#9ade80a4bbbac95595c676dd817222f632fa2c07"
-  integrity sha512-egrva1UklB1n7KAv179IhDpQzMGAvubJUlOQ9PitmmZmAfrCUEgrQnx2vPxn2s+mGV3aYegXvJ/yQ35N2SfnYQ==
+svelte@^3.17.2:
+  version "3.17.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.17.2.tgz#37997f3f83410270c47df885829944aa2e251a18"
+  integrity sha512-Xg0rBuCeiJf94J02cNoUkm9eCJsispYcvN8j+lsLuVJBhioCYcaYFoOe27sjfemXsIu8s1FztdZuwwpc2kWmjg==
 
 svgo@^1.0.0:
   version "1.3.0"
