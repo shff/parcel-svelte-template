@@ -4858,10 +4858,10 @@ parcel-plugin-compress@^1.1.0:
     iltorb "2.4.4"
     node-zopfli-es "1.0.3"
 
-parcel-plugin-inliner@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.10.tgz#e85527af46f3d10590691e1df17055c48ed17399"
-  integrity sha512-B2N6QbRvGNYBQjhZdkHw3dKc+YDRNbRpXSsg3A1tA1tizOToSOtvCOWNZbMZcIcvyGxUZ6ZCtGj7/OYujkIn9Q==
+parcel-plugin-inliner@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.13.tgz#d09615f3ec583e008a0b461814b38ec25ce76021"
+  integrity sha512-WLvZOHigJtY46G4wBb5ZvT++Z1+A6RAIuJwXxjVkRHyhzkWVdv3/aFI5xpU8BUfxZj2y8IYUINyIxckyNjjo3A==
   dependencies:
     "@shferreira/posthtml-inline-assets" "^3.0.0"
 
