@@ -18,7 +18,7 @@
     "babel-preset-env": "^1.7.0",
     "parcel": "^1.12.4",
     "parcel-plugin-compress": "^1.1.0",
-    "parcel-plugin-inliner": "^1.0.13",
+    "parcel-plugin-inliner": "^1.0.14",
     "parcel-plugin-svelte": "^4.0.6",
     "postcss-remove-unused-css": "^1.0.4",
     "svelte": "^3.19.2"
