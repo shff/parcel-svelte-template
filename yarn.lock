@@ -977,10 +977,10 @@
     file-type "^10.4.0"
     fse "^4.0.1"
 
-"@tivac/eslint-plugin-svelte@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@tivac/eslint-plugin-svelte/-/eslint-plugin-svelte-1.3.0.tgz#086b15e7fef7ac355f4096e407b0eab0fd71b59d"
-  integrity sha512-wPkSfvsLdhMvtlnCQwBUKqrGEiu4Dy4FTWcKaxML/yOmuj6JBuMNYW243URhjum/RHo59kyrGY4bOX9eWz8i6w==
+"@tivac/eslint-plugin-svelte@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@tivac/eslint-plugin-svelte/-/eslint-plugin-svelte-2.0.0.tgz#2f37d95a79c43dc97e05c4aba26cfe4298ed26ad"
+  integrity sha512-3NFi4GHonHQTemVW/hipY/TuytU+JuGP1NqE/QfgZ9oAcou/0x89vndrKFCnF2+FqTfYvlh/cbNHpowXPH7AoQ==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
