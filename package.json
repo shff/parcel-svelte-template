@@ -25,7 +25,7 @@
   },
   "optionalDependencies": {
     "@tivac/eslint-plugin-svelte": "^2.0.0",
-    "cypress": "^5.5.0",
+    "cypress": "^5.6.0",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-friendly-formatter": "^4.0.1",
