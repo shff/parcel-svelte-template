@@ -19,9 +19,9 @@
     "parcel": "^1.12.4",
     "parcel-plugin-compress": "^2.0.2",
     "parcel-plugin-inliner": "^1.0.14",
-    "parcel-plugin-svelte": "^4.0.6",
+    "parcel-plugin-svelte": "4.0.8",
     "postcss-remove-unused-css": "^1.0.4",
-    "svelte": "^3.29.4"
+    "svelte": "3.32.3"
   },
   "optionalDependencies": {
     "@tivac/eslint-plugin-svelte": "^2.0.0",

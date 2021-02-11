@@ -5718,10 +5718,10 @@ parcel-plugin-inliner@^1.0.14:
   dependencies:
     "@shferreira/posthtml-inline-assets" "^3.0.0"
 
-parcel-plugin-svelte@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.6.tgz#65f3e9cbfb44f5b6db9e6c70c9cc54891297f4b1"
-  integrity sha512-DMeu71qTrcLpSRhgGqAm1Seq+PBw+Aq0BuS2GIYwg8j2WIGo65oB4yRpPgcRQ0OVS1UUOiv8u64+AgiFzCpyOA==
+parcel-plugin-svelte@4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-svelte/-/parcel-plugin-svelte-4.0.8.tgz#4c82bfae67139e216a129ffaab86fbbcdeb358dc"
+  integrity sha512-uaxWpqCEzpWlYgXAxzpIPnd9e9pO46Z7D2I3mg3vAoAsXoXji9KRTXZk2kWXg+Rj1QYNez0cWgjbg0DvSNhvlA==
 
 parcel@^1.12.4:
   version "1.12.4"
@@ -7369,10 +7369,10 @@ supports-color@^7.1.0, supports-color@^7.2.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@^3.29.4:
-  version "3.29.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.29.4.tgz#d0f80cb58109ef52963855c23496f7153bb2eb7e"
-  integrity sha512-oW0fGHlyFFMvzRtIvOs84b0fOc0gmZNQcL5Is3hxuTpvaYX3pfd8oHy4KnOvbq4Ca6SG6AHdRMk7OhApTo0NqA==
+svelte@3.32.3:
+  version "3.32.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.32.3.tgz#db0c50c65573ecffe4e2f4924e4862d8f9feda74"
+  integrity sha512-5etu/wDwtewhnYO/631KKTjSmFrKohFLWNm1sWErVHXqGZ8eJLqrW0qivDSyYTcN8GbUqsR4LkIhftNFsjNehg==
 
 svgo@^1.0.0, svgo@^1.3.2:
   version "1.3.2"
