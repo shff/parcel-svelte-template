@@ -969,14 +969,6 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shferreira/posthtml-inline-assets@^3.0.0":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@shferreira/posthtml-inline-assets/-/posthtml-inline-assets-3.0.2.tgz#8d3b6ad375f8bc394bf59fbc33043b64b21cfe7b"
-  integrity sha512-Flj6L54Tc17M8p/wbb9YaL01MlX+WQe8gzPTxRb0yF/DYHqgizWEx0XKVeUEHbCGeB14zJ9pVCmCDFBxhc2y3Q==
-  dependencies:
-    file-type "^10.4.0"
-    fse "^4.0.1"
-
 "@tivac/eslint-plugin-svelte@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tivac/eslint-plugin-svelte/-/eslint-plugin-svelte-2.0.0.tgz#2f37d95a79c43dc97e05c4aba26cfe4298ed26ad"
@@ -5717,12 +5709,12 @@ parcel-plugin-compress@^2.0.2:
   optionalDependencies:
     node-zopfli-es "1.0.4"
 
-parcel-plugin-inliner@^1.0.14:
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.14.tgz#62a078dc1be842f85523cd12ba28a69c1618188a"
-  integrity sha512-i3U6m/MHOFPuQEx1GqHLburj6PO3MUVVYe3f2bgS9vSGFC7Dy694Mna1UkQ57h146r/DoweXMabNEOvk5kkyhA==
+parcel-plugin-inliner@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-inliner/-/parcel-plugin-inliner-1.0.16.tgz#0c7c3f71bcbc6bb45564a642104312b3da9ed72b"
+  integrity sha512-2HQUmGshACIPO2paraojM79sII1p3kkUQ6IfCVuiO0RyLYta2nQ4y2w/X1Y0RaL1txshJQj3QptCB+R9JEVmgQ==
   dependencies:
-    "@shferreira/posthtml-inline-assets" "^3.0.0"
+    posthtml-inline-assets "^3.1.0"
 
 parcel-plugin-svelte@4.0.8:
   version "4.0.8"
@@ -6307,6 +6299,14 @@ postcss@^6.0.1:
     chalk "^2.4.1"
     source-map "^0.6.1"
     supports-color "^5.4.0"
+
+posthtml-inline-assets@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/posthtml-inline-assets/-/posthtml-inline-assets-3.1.0.tgz#a245e65c6a9999e7b38d893f3982f108d725a906"
+  integrity sha512-52VGs/FG8NNlzv04jZe1HBy5pQ+HWifbQpZN5q0tt6QNkgy3SZCutf4UZyM93uzYym71tKPCQkzAXN3XnRSTgA==
+  dependencies:
+    file-type "^10.4.0"
+    fse "^4.0.1"
 
 posthtml-parser@^0.4.0, posthtml-parser@^0.4.1, posthtml-parser@^0.4.2:
   version "0.4.2"
