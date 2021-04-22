@@ -35,7 +35,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-svelte3": "^3.1.2",
-    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-unicorn": "^30.0.0",
     "eslint-watch": "^7.0.0",
     "husky": "^6.0.0",
     "jasmine": "^3.7.0",
