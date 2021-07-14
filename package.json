@@ -39,7 +39,7 @@
     "eslint-watch": "^7.0.0",
     "husky": "^6.0.0",
     "jasmine": "^3.7.0",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^11.0.1",
     "prettier": "^2.3.0"
   },
   "babel": {
