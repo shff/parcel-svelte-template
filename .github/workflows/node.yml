@@ -1,6 +1,6 @@
 name: Node
 
-on: [push]
+on: [push, pull_requests]
 
 jobs:
   build:
@@ -12,3 +12,15 @@ jobs:
     - run: yarn build
     - run: yarn lint
     - run: yarn e2e
+  automerge:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+      - uses: fastify/github-action-merge-dependabot@v3.0.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
