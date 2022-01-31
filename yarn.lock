@@ -7509,10 +7509,10 @@ supports-color@^9.2.1:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-9.2.1.tgz#599dc9d45acf74c6176e0d880bab1d7d718fe891"
   integrity sha512-Obv7ycoCTG51N7y175StI9BlAXrmgZrFhZOb0/PyjHBher/NmsdBgbbQ1Inhq+gIhz6+7Gb+jWF2Vqi7Mf1xnQ==
 
-svelte@3.46.2:
-  version "3.46.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.2.tgz#f0ffbffaea3a9a760edcbefc0902b41998a686ad"
-  integrity sha512-RXSAtYNefe01Sb1lXtZ2I+gzn3t/h/59hoaRNeRrm8IkMIu6BSiAkbpi41xb+C44x54YKnbk9+dtfs3pM4hECA==
+svelte@3.46.3:
+  version "3.46.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.46.3.tgz#31202b0c795f276726d95b648b6dd413116257ac"
+  integrity sha512-mTOXvv74CVQqJHqoIZDprVfRKVVmYNadXP0VKnOEA54223kLGCr1nMrifS4Zx29qMt/xRB38Eq1D7dDH/fM8fQ==
 
 svgo@^1.0.0, svgo@^1.3.2:
   version "1.3.2"
