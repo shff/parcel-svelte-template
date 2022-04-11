@@ -16,7 +16,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "parcel": "^1.12.4",
+    "parcel": "^2.4.1",
     "parcel-plugin-compress": "^2.0.2",
     "parcel-plugin-inliner": "^1.0.16",
     "parcel-plugin-svelte": "4.0.9",
