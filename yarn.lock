@@ -963,10 +963,10 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@tivac/eslint-plugin-svelte@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@tivac/eslint-plugin-svelte/-/eslint-plugin-svelte-3.0.1.tgz#429a5158e00e479a9a4afaf0259dd9b8b45f15b2"
-  integrity sha512-SyIndlBuTdlI84gxvCUz9T8WvQUEHQ60gLJ2sbxztYhYPT5sqB8VzWi1yBd72mqzGXKvvzI8L3jeac1fhAbbrw==
+"@tivac/eslint-plugin-svelte@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@tivac/eslint-plugin-svelte/-/eslint-plugin-svelte-3.1.0.tgz#91d9f5ec4b2e585b9b8112bd620eceb06595d0c5"
+  integrity sha512-MBfyid10inxb23LQLJRBqHNz1xRdw0k7gyOL22o8eJiNGh+pnrWMVwvbdtPrZYc5mVr1m1+X3pu2XkVeEKHXcg==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
