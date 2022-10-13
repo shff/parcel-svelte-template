@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-promise": "^6.1.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "eslint-plugin-unicorn": "^44.0.2",
     "eslint-watch": "^8.0.0",
