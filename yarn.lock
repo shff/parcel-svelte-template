@@ -868,7 +868,7 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
-"@eslint-community/eslint-utils@^4.1.0":
+"@eslint-community/eslint-utils@^4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.1.2.tgz#14ca568ddaa291dd19a4a54498badc18c6cfab78"
   integrity sha512-7qELuQWWjVDdVsFQ5+beUl+KPczrEDA7S3zM4QUd/bJl7oXgsmpXaEVqrRTnOBqenOV4rWf2kVZk2Ot085zPWA==
@@ -3398,13 +3398,13 @@ eslint-plugin-svelte3@^4.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-4.0.0.tgz#3d4f3dcaec5761dac8bc697f81de3613b485b4e3"
   integrity sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==
 
-eslint-plugin-unicorn@^45.0.1:
-  version "45.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-45.0.1.tgz#2307f4620502fd955c819733ce1276bed705b736"
-  integrity sha512-tLnIw5oDJJc3ILYtlKtqOxPP64FZLTkZkgeuoN6e7x6zw+rhBjOxyvq2c7577LGxXuIhBYrwisZuKNqOOHp3BA==
+eslint-plugin-unicorn@^45.0.2:
+  version "45.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-45.0.2.tgz#d6ba704793a6909fe5dfe013900d2b05b715284c"
+  integrity sha512-Y0WUDXRyGDMcKLiwgL3zSMpHrXI00xmdyixEGIg90gHnj0PcHY4moNv3Ppje/kDivdAy5vUeUr7z211ImPv2gw==
   dependencies:
     "@babel/helper-validator-identifier" "^7.19.1"
-    "@eslint-community/eslint-utils" "^4.1.0"
+    "@eslint-community/eslint-utils" "^4.1.2"
     ci-info "^3.6.1"
     clean-regexp "^1.0.0"
     esquery "^1.4.0"
