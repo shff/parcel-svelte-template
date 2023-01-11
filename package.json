@@ -21,7 +21,7 @@
     "parcel-plugin-inliner": "^1.0.16",
     "parcel-plugin-svelte": "4.0.9",
     "postcss-remove-unused-css": "^1.0.4",
-    "svelte": "3.55.0"
+    "svelte": "3.55.1"
   },
   "optionalDependencies": {
     "@tivac/eslint-plugin-svelte": "^3.1.0",
