@@ -40,7 +40,7 @@
     "husky": "^9.0.10",
     "jasmine": "^5.1.0",
     "lint-staged": "^15.2.1",
-    "prettier": "^2.8.8"
+    "prettier": "^3.2.4"
   },
   "babel": {
     "presets": [
