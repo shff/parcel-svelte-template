@@ -37,7 +37,7 @@
     "eslint-plugin-svelte3": "^4.0.0",
     "eslint-plugin-unicorn": "^55.0.0",
     "eslint-watch": "^8.0.0",
-    "husky": "^9.1.1",
+    "husky": "^9.1.2",
     "jasmine": "^5.2.0",
     "lint-staged": "^15.2.7",
     "prettier": "^2.8.8"
